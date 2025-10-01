@@ -22,4 +22,4 @@ O projeto simula o clássico jogo de tabuleiro, permitindo que dois jogadores di
      
    ```bash
    
-   git clone https://github.com/seu-usuario/Jogo-da-Velha.git
+   git clone https://github.com/FabioJLimaJ/Jogo-da-Velha/Jogo-da-Velha.git
