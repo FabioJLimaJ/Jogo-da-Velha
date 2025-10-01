@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body class="bg-gray-800 text-xl">
+
+    <div class="grid grid-cols-3 gap-2 max-w-sm mx-auto mt-10 p-2">
+  <button class="quadradinhos bg-blue-500 text-white aspect-square rounded cursor-pointer">&nbsp;</button>
+  <button class="quadradinhos bg-blue-500 text-white aspect-square rounded cursor-pointer">&nbsp;</button>
+  <button class="quadradinhos bg-blue-500 text-white aspect-square rounded cursor-pointer">&nbsp;</button>
+  <button class="quadradinhos bg-blue-500 text-white aspect-square rounded cursor-pointer">&nbsp;</button>
+  <button class="quadradinhos bg-blue-500 text-white aspect-square rounded cursor-pointer">&nbsp;</button>
+  <button class="quadradinhos bg-blue-500 text-white aspect-square rounded cursor-pointer">&nbsp;</button>
+  <button class="quadradinhos bg-blue-500 text-white aspect-square rounded cursor-pointer">&nbsp;</button>
+  <button class="quadradinhos bg-blue-500 text-white aspect-square rounded cursor-pointer">&nbsp;</button>
+  <button class="quadradinhos bg-blue-500 text-white aspect-square rounded cursor-pointer">&nbsp;</button>
+  <h1 class="text-white">é a vez de <span class="msg"></span></h1> 
+</div>
+<!-- <button onclick="document.getElementById('meuModal').classList.remove('hidden')"
+        class="bg-blue-500 text-white px-4 py-2 rounded">
+  Abrir Modal
+</button> -->
+
+
+<div id="meuModal" class="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50">
+  <div class="bg-white p-6 rounded-lg shadow-lg w-80 relative text-center">
+
+
+    <h2 class="text-xl font-bold mb-4">Quem começa?</h2>
+
+
+    <div class="flex justify-center gap-4 mb-4">
+      <button class="escolha bg-blue-500 text-white rounded px-10 py-10 font-bold cursor-pointer">X</button>
+      <button class="escolha bg-blue-500 text-white rounded px-10 py-10 font-bold cursor-pointer">O</button>
+    </div>
+
+
+    <button onclick="document.getElementById('meuModal').classList.add('hidden')"
+            class="escolha bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">
+      Jogar
+    </button>
+  </div>
+</div>
+
+
+    <script src="main.js" defer></script>
+</body>
+</html>
